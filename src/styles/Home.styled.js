@@ -1,12 +1,26 @@
 import styled from 'styled-components';
-import { priColor } from './variables';
 
-export const Container = styled.div `
-    border: 1px solid red;
-    width:  375px;
-    min-height: 599px;
-    background: ${priColor};
-    color: white;
-    text-align: center;
-    padding-top: 1rem;
+export const HomeWrapper = styled.div`
+`;
+
+export const H3 = styled.div`
+color: white;
+font-size: 24px;
+line-height: 29.16px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 7px;
+padding-top: 35px;
+`;
+
+export const P = styled.div`
+color: white;
+text-align: center;
+font-size: 14px;
+line-height: 17px;
+font-weight: normal;
+`;
+
+export const HomeDiv1 = styled.div`
+padding: 20px;
 `;
